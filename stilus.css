@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: 'corsiva';
+    src: url(corsiva.ttf);
+}
+
+html {
+    background-color: black;
+}
+body {
+    background-color: #EEFF66;
+    font-family: 'corsiva';
+    color: #000066;
+    font-weight: initial;
+}
+
+#belso{
+    width: 45%;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+#felso {
+    padding: 5px;
+    border-bottom: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.menu-elem {
+    border-top: 3px solid red;
+    padding: 15px 25px 5px 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#kozep {
+    text-align: center;
+}
+
+#bal {
+    float: left;
+}
+
+#jobb {
+    float: right;
+
+}
+hr {
+    height: 2px;
+    color: red;
+    background-color: red;
+    width: 100%;
+}
+.etlapkep {
+    width: 160px;
+    height: 100px;
+}
+.nap {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu-elem:last-of-type {
+    border-bottom: 3px solid red;
+}
+#arak {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+
+}
+
+#ar-kontener {
+    display: flex;
+    justify-content: space-between;
+}
+
+#jog {
+    padding: 5px 0;
+    text-align: center;
+}
+
+#lab {
+    margin-top: 5px;
+    border-top: 3px solid red;
+    text-align: right;
+    padding: 15px 0px;
+}
+.tanyer {
+    width: 150px;
+    height: 100px;
+}
+#dolgozo {
+    border-bottom: 1px solid red;
+    padding: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    
+}
+#ar-list>div {
+    display: flex;
+    justify-content: space-between; 
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue ;
+    font-weight: 600;
+    
+}
+
+#ar-list>div:last-of-type {
+    justify-content: right;
+    text-align: right;
+}
+
+.athuzott{
+    text-decoration: line-through;
+}
+#arak-belso {
+    border-top: 3px solid red;
+    margin-top: 8px;
+    padding-top: 10px;
+}
